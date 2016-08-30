@@ -20,13 +20,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9l-Sm-rGg">
-                                <frame key="frameInset" minX="41" minY="413" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <frame key="frameInset" minX="49" minY="413" width="30" height="30"/>
+                                <state key="normal" title="Left"/>
                                 <connections>
                                     <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NxR-7g-X59"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7h-hK-qZ8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7h-hK-qZ8">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="I7h-hK-qZ8" secondAttribute="height" multiplier="2:1" id="l25-fS-QId"/>
                                 </constraints>
@@ -34,7 +34,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8N-Vu-AUq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Right" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8N-Vu-AUq">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="u8N-Vu-AUq" secondAttribute="height" multiplier="2:1" id="dg7-A5-m0x"/>
                                 </constraints>
@@ -43,7 +43,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAn-lf-pT6">
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Right"/>
                                 <connections>
                                     <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OJI-H9-sbe"/>
                                 </connections>

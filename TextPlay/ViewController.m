@@ -50,5 +50,8 @@
 }
 
 - (IBAction)button2:(id)sender {
+    [self.label2 setText:self.textField.text];
+    
+
 }
 @end
