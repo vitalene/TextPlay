@@ -8,7 +8,12 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <UITextFieldDelegate>
+- (IBAction)button1:(id)sender;
+- (IBAction)button2:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet UILabel *label1;
+@property (strong, nonatomic) IBOutlet UILabel *label2;
 
 @end
 
@@ -25,5 +30,25 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)textFieldDidEndEditing:(UITextField *)textField reason:(UITextFieldDidEndEditingReason)reason {
+    NSLog(@"%@", textField.text);
+}
 
+
+- (BOOL)textFieldShouldEndEditing:(UITextField *)textField {
+    return YES;
+}
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
+}
+
+
+
+- (IBAction)button1:(id)sender {
+    [self.label1 setText:self.textField.text];
+}
+
+- (IBAction)button2:(id)sender {
+}
 @end
